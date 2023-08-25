@@ -1,6 +1,6 @@
 [package]
 name = "efi-runner"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Valentine Briese <valentinegb@icloud.com>"]
 edition = "2021"
 description = "A runner for EFI executables using QEMU and OVMF."

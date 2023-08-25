@@ -7,7 +7,7 @@ description = "A runner for EFI executables using QEMU and OVMF."
 repository = "https://github.com/valentinegb/efi-runner"
 license = "MIT"
 keywords = ["runner", "efi", "uefi"]
-categories = ["command-line-utilities", "development-tools::cargo-plugins"]
+categories = ["command-line-utilities", "development-tools"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

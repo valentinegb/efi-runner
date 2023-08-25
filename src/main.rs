@@ -3,9 +3,13 @@ use std::{env::args, io::Write, path::PathBuf, process::Command};
 use tempfile::NamedTempFile;
 
 fn main() {
-    let path = PathBuf::from(args().nth(1).unwrap())
-        .canonicalize()
-        .expect("failed to canonicalize executable path");
+    let path = PathBuf::from(
+        args()
+            .nth(1)
+            .expect("expected path to efi file as an argument"),
+    )
+    .canonicalize()
+    .expect("failed to canonicalize executable path");
     let ovmf = include_bytes!("OVMF.fd");
     let mut ovmf_file = NamedTempFile::new().expect("failed to create temporary ovmf file");
 

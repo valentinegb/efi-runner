@@ -31,4 +31,4 @@ cargo run
 
 a QEMU window will open with your program loaded in it.
 
-![Screenshot 2023-08-24 at 10 41 01 PM](https://github.com/valentinegb/efi-runner/assets/35977727/fc01d885-45fc-4f7e-a151-e265499fb395)
+![Screenshot 2023-08-24 at 10 50 14 PM](https://github.com/valentinegb/efi-runner/assets/35977727/59fb9cf1-b20c-40f5-8fab-25132381f716)
